@@ -12,7 +12,26 @@ struct Label: Identifiable {
     var label: String
 }
 
+var selectedLabels = [Label]()
+
+struct SelectedLabelView: View {
+   
+    var body: some View {
+        
+        HStack {
+            List{
+                Button(action: {
+                    //Deselect the label
+                }, label: {
+                    Text("카톡대화")
+                })
+            }
+        }
+    }
+}
+
 struct AddLabelingView: View {
+    
     @State var labels = [
         Label(label: "UX/UI 디자인"),
         Label(label: "카톡캡쳐"),
@@ -25,15 +44,21 @@ struct AddLabelingView: View {
         ]
     
     var body: some View {
-        VStack() {
+       
+            VStack() {
+                HStack() {
+                Text("라벨 들 넣을 공간")
+                }
+                
             List(labels) { label in
                 Button(action: {}, label: {
                     Text(label.label)
                 })
                 }
             }
-        }
         
+        
+        }
     }
 
 struct AddLabelingView_Previews: PreviewProvider {

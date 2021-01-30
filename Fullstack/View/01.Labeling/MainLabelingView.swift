@@ -9,7 +9,7 @@ struct Photo: Identifiable {
         Photo(image: UIImage(named: "sc1")!),
         Photo(image: UIImage(named: "sc2")!),
         Photo(image: UIImage(named: "sc3")!),
-        Photo(image: UIImage(named: "sc4")!),
+        Photo(image: UIImage(named: "sc4")!)
     ]
 }
 
@@ -39,11 +39,10 @@ var cardStack = CardStack(
         
         if direction == .right {
             print("우측")
-            NavigationLink(
-                destination: AddLabelingView(),
-                label: {
-                    Text("라벨링 추가")
-                })
+            //navigation
+            NavigationLink(destination:  AddLabelingView()){
+                
+            }
         }
     },
     content: { photo,_,_  in
@@ -83,13 +82,16 @@ struct MainLabelingView: View {
                 })
                 .padding(50.0)
                 
-                Button(action: {
-                    onClickRight
-                }, label: {
-                    Text("Y")
-                }).padding(50.0)
-            }.padding(30)
+                NavigationLink(
+                    destination: AddLabelingView()){
+                        Text("YES")
+                    }
+                .padding(50.0)
+                }.padding(30)
         
+                
+                
+                
             }
         }
     }
