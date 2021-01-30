@@ -7,36 +7,37 @@
 
 import SwiftUI
 
-
+struct Label: Identifiable {
+    var id = UUID()
+    var label: String
+}
 
 struct AddLabelingView: View {
-    @Binding var text: String
-    
-    @State private var isEditing = false
-    
+    @State var labels = [
+        Label(label: "UX/UI 디자인"),
+        Label(label: "카톡캡쳐"),
+        Label(label: "헤어스타일"),
+        Label(label: "엽사"),
+        Label(label: "게임스샷"),
+        Label(label: "UX/UI 디자인"),
+        Label(label: "UX/UI 디자인"),
+        Label(label: "UX/UI 디자인")
+        ]
     
     var body: some View {
-        HStack {
-            TextField("라벨 검색", text: $text)
-                .padding(7)
-                .padding(.horizontal, 25)
-                .background(Color(.systemGray6))
-                .cornerRadius(8)
-                .padding(.horizontal, 10)
-                .onTapGesture {
-                    self.isEditing = true
-                    
+        VStack() {
+            List(labels) { label in
+                Button(action: {}, label: {
+                    Text(label.label)
+                })
                 }
-                .padding()
-            
-        
+            }
         }
-
+        
     }
-}
 
 struct AddLabelingView_Previews: PreviewProvider {
     static var previews: some View {
-        AddLabelingView(text: .constant(""))
+        AddLabelingView()
     }
 }
