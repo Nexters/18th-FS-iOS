@@ -694,6 +694,7 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		3C1B4DF5FB353A6879B0EC67BE8C2FEF /* Headers */ = {
+<<<<<<< HEAD
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -713,6 +714,27 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+=======
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFC482CEA1120300F5DD553C4AC0776F /* OpenCombineDispatch-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		503898C7353264D553CC65B9BDE468BD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4B587152C622507457193A39E35D9D9 /* Pods-Fullstack-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C07AD6233C5A63662FE169A97B2A3AF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+>>>>>>> 3661d569bc51efdbce0e6be98f68114572bf31f0
 				178714BCEA056AEAAC50CDD7E63F351C /* OpenCombineFoundation-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1021,6 +1043,7 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		68DA8DACB488A11161C8B39D61B908B4 /* Sources */ = {
+<<<<<<< HEAD
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1033,6 +1056,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+=======
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66CB774715C5E467B05C62029A556F96 /* DispatchQueue+Scheduler.swift in Sources */,
+				B62D56542DF588B651224B2BF31345D8 /* OpenCombineDispatch-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AACECB0DA419D6313B9C75E44A2BE0BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+>>>>>>> 3661d569bc51efdbce0e6be98f68114572bf31f0
 				B9B6E9BED845E91AC9BF080C7D32B754 /* Pods-Fullstack-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1118,6 +1155,8 @@
 		214BAAF6EA262810408F9598F48294D2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9B50B090E885AE22377E182D1E7A7ED4 /* OpenCombine.debug.xcconfig */;
+<<<<<<< HEAD
+=======
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1218,7 +1257,230 @@
 			};
 			name = Release;
 		};
-		4BC7450F9457737EE3E637BA155B56F7 /* Debug */ = {
+		4F774BD15654E96D816BA2FD2F0F01FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BCF6DA2FA10E881DC2CFD0D6BC8A410E /* Pods-Fullstack.release.xcconfig */;
+>>>>>>> 3661d569bc51efdbce0e6be98f68114572bf31f0
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/OpenCombine/OpenCombine-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/OpenCombine/OpenCombine-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+<<<<<<< HEAD
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+=======
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+>>>>>>> 3661d569bc51efdbce0e6be98f68114572bf31f0
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/OpenCombine/OpenCombine.modulemap";
+				PRODUCT_MODULE_NAME = OpenCombine;
+				PRODUCT_NAME = OpenCombine;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5764616310D7DF47047C581BDB0259D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9AD39FF39B219A18E304BA34C9D2CE3F /* SwiftUICardStack.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftUICardStack/SwiftUICardStack-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftUICardStack/SwiftUICardStack-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SwiftUICardStack/SwiftUICardStack.modulemap";
+				PRODUCT_MODULE_NAME = CardStack;
+				PRODUCT_NAME = CardStack;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+<<<<<<< HEAD
+		395C7F2503E142AD4AC993F774719B4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 383964309929DBC863A5C3B1056777BB /* OpenCombineDispatch.debug.xcconfig */;
+=======
+		5BB8C83436BC4C86275E2778E275BF00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0DCC3DEE93A7711D931388F34130B148 /* OpenCombineDispatch.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/OpenCombineDispatch/OpenCombineDispatch-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/OpenCombineDispatch/OpenCombineDispatch-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/OpenCombineDispatch/OpenCombineDispatch.modulemap";
+				PRODUCT_MODULE_NAME = OpenCombineDispatch;
+				PRODUCT_NAME = OpenCombineDispatch;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6518D19C8219D4AA12E2C440A0395EA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CDAF2C6768B6A5482DEDDD2F8C16FBF9 /* OpenCombineFoundation.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/OpenCombineFoundation/OpenCombineFoundation-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/OpenCombineFoundation/OpenCombineFoundation-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/OpenCombineFoundation/OpenCombineFoundation.modulemap";
+				PRODUCT_MODULE_NAME = OpenCombineFoundation;
+				PRODUCT_NAME = OpenCombineFoundation;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		794D92FF819CFF01CBE5D750938536B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C2513BE2CE6D4898D1675CF9D565630 /* Pods-Fullstack.debug.xcconfig */;
+>>>>>>> 3661d569bc51efdbce0e6be98f68114572bf31f0
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/OpenCombineDispatch/OpenCombineDispatch-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/OpenCombineDispatch/OpenCombineDispatch-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+<<<<<<< HEAD
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+=======
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+>>>>>>> 3661d569bc51efdbce0e6be98f68114572bf31f0
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/OpenCombineDispatch/OpenCombineDispatch.modulemap";
+				PRODUCT_MODULE_NAME = OpenCombineDispatch;
+				PRODUCT_NAME = OpenCombineDispatch;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3B21FC06E83EB040144DD686BA6CBCA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 765A96EF34C67A474CF65F5C2A808888 /* OpenCombine.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/OpenCombine/OpenCombine-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/OpenCombine/OpenCombine-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/OpenCombine/OpenCombine.modulemap";
+				PRODUCT_MODULE_NAME = OpenCombine;
+				PRODUCT_NAME = OpenCombine;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8DE5143C03248BB6CD542DE3963D6F3A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -1271,7 +1533,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -1284,6 +1546,7 @@
 			};
 			name = Debug;
 		};
+<<<<<<< HEAD
 		51A7C0B7D80B04A2FFA958F20BBD4B32 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = BCF6DA2FA10E881DC2CFD0D6BC8A410E /* Pods-Fullstack.release.xcconfig */;
@@ -1428,6 +1691,9 @@
 			name = Release;
 		};
 		8B5A46FF8D3C1289CDEE3BAFACABCD2A /* Release */ = {
+=======
+		9E406C6AAF85E580207CD97B0044DEAB /* Release */ = {
+>>>>>>> 3661d569bc51efdbce0e6be98f68114572bf31f0
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -1477,7 +1743,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1523,6 +1789,7 @@
 			};
 			name = Debug;
 		};
+<<<<<<< HEAD
 		BCF8644E2C10F4FB97A0B5C867D29BC1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 8C2513BE2CE6D4898D1675CF9D565630 /* Pods-Fullstack.debug.xcconfig */;
@@ -1560,14 +1827,43 @@
 			};
 			name = Debug;
 		};
+=======
+>>>>>>> 3661d569bc51efdbce0e6be98f68114572bf31f0
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4BC7450F9457737EE3E637BA155B56F7 /* Debug */,
-				8B5A46FF8D3C1289CDEE3BAFACABCD2A /* Release */,
+				8DE5143C03248BB6CD542DE3963D6F3A /* Debug */,
+				9E406C6AAF85E580207CD97B0044DEAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		72DEBA16CB66EA22E1B5326FFBF41617 /* Build configuration list for PBXNativeTarget "OpenCombine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				214BAAF6EA262810408F9598F48294D2 /* Debug */,
+				3B21FC06E83EB040144DD686BA6CBCA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79D06345EF6230A15BAFC2E5A34AD026 /* Build configuration list for PBXNativeTarget "OpenCombineDispatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				395C7F2503E142AD4AC993F774719B4E /* Debug */,
+				5BB8C83436BC4C86275E2778E275BF00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A28E7017BBE45BB29FFD8F75B47B0316 /* Build configuration list for PBXNativeTarget "OpenCombineFoundation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABD67221E1EB7C906B15D358C196D849 /* Debug */,
+				6518D19C8219D4AA12E2C440A0395EA7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1611,8 +1907,13 @@
 		C7A6D766C6DAF50D49FDB1B858BB3FEC /* Build configuration list for PBXNativeTarget "Pods-Fullstack" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
+<<<<<<< HEAD
 				BCF8644E2C10F4FB97A0B5C867D29BC1 /* Debug */,
 				51A7C0B7D80B04A2FFA958F20BBD4B32 /* Release */,
+=======
+				794D92FF819CFF01CBE5D750938536B5 /* Debug */,
+				4F774BD15654E96D816BA2FD2F0F01FB /* Release */,
+>>>>>>> 3661d569bc51efdbce0e6be98f68114572bf31f0
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

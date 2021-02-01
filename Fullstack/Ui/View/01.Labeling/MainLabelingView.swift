@@ -40,9 +40,7 @@ var cardStack = CardStack(
         if direction == .right {
             print("우측")
             //navigation
-            NavigationLink(destination:  AddLabelingView()){
-                
-            }
+            
         }
     },
     content: { photo,_,_  in
