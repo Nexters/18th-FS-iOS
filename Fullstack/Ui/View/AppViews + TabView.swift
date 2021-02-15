@@ -12,25 +12,13 @@ struct AppView: View {
 
     init() {
         UITabBar.appearance().backgroundColor = UIColor(Color.DEPTH_4_BG)
+        UITabBar.appearance().barTintColor = UIColor(Color.DEPTH_4_BG)
     }
 
     var body: some View {
         TabView(selection: $selection, content: {
             MainLabelingView()
                 .tabItem {
-
-                    Image("tabbar_add")
-                }
-            SearchView()
-                .tabItem {
-                    Image("tabbar_home")
-                }
-            AlbumView()
-                .tabItem {
-                    Image("tabbar_album")
-                }
-        }
-
                     Image(selection == 0 ? "ico_labeling_on" : "ico_labeling_off")
                 }.tag(0)
             SearchView()
@@ -41,9 +29,7 @@ struct AppView: View {
                 .tabItem {
                     Image(selection == 2 ? "ico_album_on" : "ico_album_off")
                 }.tag(2)
-
         })
-
     }
 }
 

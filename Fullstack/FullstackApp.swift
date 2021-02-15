@@ -11,7 +11,9 @@ import SwiftUI
 struct FullstackApp: App {
     var body: some Scene {
         WindowGroup {
-            AppView()
+            ZStack {
+                AppView()
+            }.background(Color.DEPTH_4_BG)
         }
     }
 }

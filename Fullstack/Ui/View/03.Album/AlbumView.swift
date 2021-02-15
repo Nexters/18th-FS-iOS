@@ -9,7 +9,10 @@ import SwiftUI
 
 struct AlbumView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack {
+            Color.DEPTH_4_BG.edgesIgnoringSafeArea(.all)
+            Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        }
     }
 }
 
