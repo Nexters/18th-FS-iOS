@@ -18,7 +18,7 @@
 		246159F525B2E18500F6D730 /* MainLabelingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 246159F425B2E18500F6D730 /* MainLabelingView.swift */; };
 		2464AD2A25BA623500BE3492 /* AppViews + TabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2464AD2925BA623500BE3492 /* AppViews + TabView.swift */; };
 		2464AD2E25BA63E100BE3492 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2464AD2D25BA63E100BE3492 /* SearchView.swift */; };
-		2464AD3625BA648900BE3492 /* AlbumView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2464AD3525BA648900BE3492 /* AlbumView.swift */; };
+		2464AD3625BA648900BE3492 /* LabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2464AD3525BA648900BE3492 /* LabelView.swift */; };
 		2464AD3B25BA686B00BE3492 /* AddLabelingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2464AD3A25BA686B00BE3492 /* AddLabelingView.swift */; };
 		2464AD3E25BA795500BE3492 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2464AD3D25BA795500BE3492 /* SearchBar.swift */; };
 		2475AB2425D8FABD0086B24D /* ShareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2475AB2325D8FABD0086B24D /* ShareViewController.swift */; };
@@ -30,6 +30,7 @@
 		5661457825D2D84400D057E1 /* Label_Components.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5661457725D2D84400D057E1 /* Label_Components.swift */; };
 		5661459025D9579F00D057E1 /* CustomWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5661458F25D9579F00D057E1 /* CustomWidget.swift */; };
 		5661459325DA07A800D057E1 /* ScreenShot_Components.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5661459225DA07A800D057E1 /* ScreenShot_Components.swift */; };
+		5661459625DA3E5E00D057E1 /* HomeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5661459525DA3E5E00D057E1 /* HomeDetailView.swift */; };
 		56BD4D2325C97F65008D2941 /* LabelRepositoryImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56BD4D2225C97F65008D2941 /* LabelRepositoryImpl.swift */; };
 		56BD4D2625C97F6E008D2941 /* ImageRepositoryImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56BD4D2525C97F6E008D2941 /* ImageRepositoryImpl.swift */; };
 		56BD4D2A25C98990008D2941 /* DIContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56BD4D2925C98990008D2941 /* DIContainer.swift */; };
@@ -112,7 +113,7 @@
 		246159F425B2E18500F6D730 /* MainLabelingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainLabelingView.swift; sourceTree = "<group>"; };
 		2464AD2925BA623500BE3492 /* AppViews + TabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AppViews + TabView.swift"; sourceTree = "<group>"; };
 		2464AD2D25BA63E100BE3492 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
-		2464AD3525BA648900BE3492 /* AlbumView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumView.swift; sourceTree = "<group>"; };
+		2464AD3525BA648900BE3492 /* LabelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelView.swift; sourceTree = "<group>"; };
 		2464AD3A25BA686B00BE3492 /* AddLabelingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddLabelingView.swift; sourceTree = "<group>"; };
 		2464AD3D25BA795500BE3492 /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
 		2475AB2125D8FABD0086B24D /* ShareSheet.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = ShareSheet.appex; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -127,6 +128,7 @@
 		5661457725D2D84400D057E1 /* Label_Components.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Label_Components.swift; sourceTree = "<group>"; };
 		5661458F25D9579F00D057E1 /* CustomWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomWidget.swift; sourceTree = "<group>"; };
 		5661459225DA07A800D057E1 /* ScreenShot_Components.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenShot_Components.swift; sourceTree = "<group>"; };
+		5661459525DA3E5E00D057E1 /* HomeDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeDetailView.swift; sourceTree = "<group>"; };
 		56BD4D2225C97F65008D2941 /* LabelRepositoryImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelRepositoryImpl.swift; sourceTree = "<group>"; };
 		56BD4D2525C97F6E008D2941 /* ImageRepositoryImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageRepositoryImpl.swift; sourceTree = "<group>"; };
 		56BD4D2925C98990008D2941 /* DIContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DIContainer.swift; sourceTree = "<group>"; };
@@ -255,8 +257,8 @@
 				2430AF7B25CA352F00AFE8FE /* HexColor.swift */,
 				2464AD2925BA623500BE3492 /* AppViews + TabView.swift */,
 				2464AD3025BA63F300BE3492 /* 01.Labeling */,
-				2464AD3125BA640500BE3492 /* 02.Search */,
-				2464AD3425BA646900BE3492 /* 03.Album */,
+				2464AD3125BA640500BE3492 /* 02.Home */,
+				2464AD3425BA646900BE3492 /* 03.Label */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -290,21 +292,22 @@
 			path = 01.Labeling;
 			sourceTree = "<group>";
 		};
-		2464AD3125BA640500BE3492 /* 02.Search */ = {
+		2464AD3125BA640500BE3492 /* 02.Home */ = {
 			isa = PBXGroup;
 			children = (
 				2464AD3D25BA795500BE3492 /* SearchBar.swift */,
 				2464AD2D25BA63E100BE3492 /* SearchView.swift */,
+				5661459525DA3E5E00D057E1 /* HomeDetailView.swift */,
 			);
-			path = 02.Search;
+			path = 02.Home;
 			sourceTree = "<group>";
 		};
-		2464AD3425BA646900BE3492 /* 03.Album */ = {
+		2464AD3425BA646900BE3492 /* 03.Label */ = {
 			isa = PBXGroup;
 			children = (
-				2464AD3525BA648900BE3492 /* AlbumView.swift */,
+				2464AD3525BA648900BE3492 /* LabelView.swift */,
 			);
-			path = 03.Album;
+			path = 03.Label;
 			sourceTree = "<group>";
 		};
 		2475AB2225D8FABD0086B24D /* ShareSheet */ = {
@@ -321,8 +324,8 @@
 			children = (
 				5661457325D2D82400D057E1 /* Album_Components.swift */,
 				5661457725D2D84400D057E1 /* Label_Components.swift */,
-				5661458F25D9579F00D057E1 /* CustomWidget.swift */,
 				5661459225DA07A800D057E1 /* ScreenShot_Components.swift */,
+				5661458F25D9579F00D057E1 /* CustomWidget.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -675,7 +678,7 @@
 				56C1969B25C1737E00E441EC /* CachedDataSource.swift in Sources */,
 				56D1B67425BFE215008EEF2F /* Observable.swift in Sources */,
 				246159D125B2DCC100F6D730 /* FullstackApp.swift in Sources */,
-				2464AD3625BA648900BE3492 /* AlbumView.swift in Sources */,
+				2464AD3625BA648900BE3492 /* LabelView.swift in Sources */,
 				56D1B67125BFE215008EEF2F /* Driver.swift in Sources */,
 				5661459025D9579F00D057E1 /* CustomWidget.swift in Sources */,
 				56D1B67525BFE215008EEF2F /* ActivityTracker.swift in Sources */,
@@ -688,6 +691,7 @@
 				56D1B64325BD75B7008EEF2F /* Label.swift in Sources */,
 				56C1967625C13F0600E441EC /* UpdateLabel.swift in Sources */,
 				2464AD3E25BA795500BE3492 /* SearchBar.swift in Sources */,
+				5661459625DA3E5E00D057E1 /* HomeDetailView.swift in Sources */,
 				56C1967325C13EAB00E441EC /* DeleteLabel.swift in Sources */,
 				56D1B67F25C04F5B008EEF2F /* LoadLabelingSelectData.swift in Sources */,
 				56BD4D3025CC2276008D2941 /* SColor.swift in Sources */,
