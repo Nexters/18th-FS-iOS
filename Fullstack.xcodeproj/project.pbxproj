@@ -26,6 +26,10 @@
 		2475AB2B25D8FABD0086B24D /* ShareSheet.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 2475AB2125D8FABD0086B24D /* ShareSheet.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		249E81DE25DB6FF100423791 /* SizeReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 249E81DD25DB6FF100423791 /* SizeReader.swift */; };
 		24D2355025DA888100F3A329 /* LabelViewFromOutside.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D2354F25DA888100F3A329 /* LabelViewFromOutside.swift */; };
+		5661457425D2D82400D057E1 /* Album_Components.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5661457325D2D82400D057E1 /* Album_Components.swift */; };
+		5661457825D2D84400D057E1 /* Label_Components.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5661457725D2D84400D057E1 /* Label_Components.swift */; };
+		5661459025D9579F00D057E1 /* CustomWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5661458F25D9579F00D057E1 /* CustomWidget.swift */; };
+		5661459325DA07A800D057E1 /* ScreenShot_Components.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5661459225DA07A800D057E1 /* ScreenShot_Components.swift */; };
 		56BD4D2325C97F65008D2941 /* LabelRepositoryImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56BD4D2225C97F65008D2941 /* LabelRepositoryImpl.swift */; };
 		56BD4D2625C97F6E008D2941 /* ImageRepositoryImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56BD4D2525C97F6E008D2941 /* ImageRepositoryImpl.swift */; };
 		56BD4D2A25C98990008D2941 /* DIContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56BD4D2925C98990008D2941 /* DIContainer.swift */; };
@@ -119,6 +123,10 @@
 		24D2354F25DA888100F3A329 /* LabelViewFromOutside.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelViewFromOutside.swift; sourceTree = "<group>"; };
 		34507485FA39E33720954FC4 /* Pods-Fullstack.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fullstack.debug.xcconfig"; path = "Target Support Files/Pods-Fullstack/Pods-Fullstack.debug.xcconfig"; sourceTree = "<group>"; };
 		514A3FBCBD182BB8A82FE9B3 /* Pods_Fullstack.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Fullstack.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5661457325D2D82400D057E1 /* Album_Components.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Album_Components.swift; sourceTree = "<group>"; };
+		5661457725D2D84400D057E1 /* Label_Components.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Label_Components.swift; sourceTree = "<group>"; };
+		5661458F25D9579F00D057E1 /* CustomWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomWidget.swift; sourceTree = "<group>"; };
+		5661459225DA07A800D057E1 /* ScreenShot_Components.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenShot_Components.swift; sourceTree = "<group>"; };
 		56BD4D2225C97F65008D2941 /* LabelRepositoryImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelRepositoryImpl.swift; sourceTree = "<group>"; };
 		56BD4D2525C97F6E008D2941 /* ImageRepositoryImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageRepositoryImpl.swift; sourceTree = "<group>"; };
 		56BD4D2925C98990008D2941 /* DIContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DIContainer.swift; sourceTree = "<group>"; };
@@ -243,6 +251,8 @@
 		246159E325B2DE7200F6D730 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				5661457225D2D80400D057E1 /* Components */,
+				2430AF7B25CA352F00AFE8FE /* HexColor.swift */,
 				2464AD2925BA623500BE3492 /* AppViews + TabView.swift */,
 				2464AD3025BA63F300BE3492 /* 01.Labeling */,
 				2464AD3125BA640500BE3492 /* 02.Search */,
@@ -306,6 +316,15 @@
 				24D2354F25DA888100F3A329 /* LabelViewFromOutside.swift */,
 			);
 			path = ShareSheet;
+		5661457225D2D80400D057E1 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				5661457325D2D82400D057E1 /* Album_Components.swift */,
+				5661457725D2D84400D057E1 /* Label_Components.swift */,
+				5661458F25D9579F00D057E1 /* CustomWidget.swift */,
+				5661459225DA07A800D057E1 /* ScreenShot_Components.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 		56C1967E25C143F100E441EC /* Cache */ = {
@@ -632,6 +651,7 @@
 				249E81DE25DB6FF100423791 /* SizeReader.swift in Sources */,
 				56D1B64D25BD7922008EEF2F /* LabelRepository.swift in Sources */,
 				246159EB25B2DEC100F6D730 /* Model.swift in Sources */,
+				5661457825D2D84400D057E1 /* Label_Components.swift in Sources */,
 				56D1B62F25BD71C8008EEF2F /* Usecase.swift in Sources */,
 				56C1966D25C13AD300E441EC /* SearchResult.swift in Sources */,
 				56C196AD25C2F2A500E441EC /* DomainError.swift in Sources */,
@@ -649,6 +669,7 @@
 				56D1B68225C0502C008EEF2F /* VO.swift in Sources */,
 				56D1B64625BD7680008EEF2F /* Color.swift in Sources */,
 				56BD4D2A25C98990008D2941 /* DIContainer.swift in Sources */,
+				5661457425D2D82400D057E1 /* Album_Components.swift in Sources */,
 				56C1967025C13D9600E441EC /* DeleteImages.swift in Sources */,
 				56C1967C25C1430600E441EC /* BookmarkImage.swift in Sources */,
 				56C1969B25C1737E00E441EC /* CachedDataSource.swift in Sources */,
@@ -656,11 +677,13 @@
 				246159D125B2DCC100F6D730 /* FullstackApp.swift in Sources */,
 				2464AD3625BA648900BE3492 /* AlbumView.swift in Sources */,
 				56D1B67125BFE215008EEF2F /* Driver.swift in Sources */,
+				5661459025D9579F00D057E1 /* CustomWidget.swift in Sources */,
 				56D1B67525BFE215008EEF2F /* ActivityTracker.swift in Sources */,
 				2437675325DB3BB1003A51AB /* FlexibleView.swift in Sources */,
 				56BD4D2D25C9AF07008D2941 /* Typography.swift in Sources */,
 				56D1B69125C05713008EEF2F /* LoadSearchLabelData.swift in Sources */,
 				241882E625C95CC400B062CF /* AddNewLabelView.swift in Sources */,
+				5661459325DA07A800D057E1 /* ScreenShot_Components.swift in Sources */,
 				56D1B63C25BD7406008EEF2F /* Image.swift in Sources */,
 				56D1B64325BD75B7008EEF2F /* Label.swift in Sources */,
 				56C1967625C13F0600E441EC /* UpdateLabel.swift in Sources */,
